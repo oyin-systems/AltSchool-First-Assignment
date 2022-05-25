@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    text-align: left;
+    color: rgb(75, 6, 75);
+    background-color: rgb(245, 222, 245);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+table {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%
+}
+
+hr{
+    border: thick #F1F6F9 10px;
+    border-bottom: none;
+    margin: 5px auto;
+    width: 50%;
+}
+
+li{
+    line-height: 2;
+    font-size: 20px;
+  }
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-style:italic
+  }
+
+h6{
+    color: purple;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+  }
+p{
+  line-height: 2;
+  font-size: 20px;
+}
+
+  .navigation{
+    background-color: purple;
+    padding: 15px;
+  }
+
+  .logo{
+    color: white;
+    float: left;
+    font-size: 20px;
+  }
+
+  nav li{
+      display: inline-block; 
+      padding: 10px;
+      margin: 10px;
+      padding-left: 50px;
+    }
+
+.nav-links a{
+      margin: 5px;
+      text-decoration: none;
+      color: white;
+    }
+
+.nav-links li:hover, active {
+        color: white;
+        padding-bottom: 10px;
+        border-bottom: 8px dotted white;
+      }
+
+      .form{
+        width: 95%;
+        max-width: 25rem;
+        margin: 2rem auto;
+      }
+      
+      .input-area {
+        margin-bottom: 0.5rem;
+      }
+      
+      .input-area label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: #353336;
+        display: block;
+      }
+      
+      .input-area input,textarea {
+        display: block;
+        font: inherit;
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #001D6E;
+        padding: 0.25rem;
+        background-color: #E8F9FD;
+      }
+      .action {
+        margin-top: 1.5rem;
+      }
+      
+      .action button {
+        font: inherit;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        background-color: purple;
+        color: white;
+        border: 1px solid #001D6E;
+      }
+      
+      .action button:hover {
+        background-color: #035397;
+        border-color: #035397;
+      }
+      .priority{
+        border-radius: 4px;
+        padding: 0.5rem 1.5rem;
+      }
+      .know-me{
+        padding: 20px
+      }
+
+      .goals{
+        line-height: 1.5;
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside;
+      }
+      .education{
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside
+      }
+      .certificates{
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside
+      }
+      .job-experience{
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside
+      }
+      .hobbies{
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside
+      }
+      .skills{
+        margin: 50px auto 50px auto;
+        text-align: left;
+        width: 50%;
+        list-style-position: outside
+      }
+
+      .register-form{
+        text-align: center;
+      }
+      #contact{
+        text-align: center;
+      }
+      #register{
+        text-align: center;
+      }
